@@ -27,3 +27,9 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 }
+document.getElementById("clickme").addEventListener("click",msg)
+
+function msg(){
+alert("hello legendsumeet is here")
+}
+
