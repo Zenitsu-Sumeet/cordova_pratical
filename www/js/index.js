@@ -30,7 +30,6 @@ document.addEventListener("resume",onResume);
 document.addEventListener("volumedownbutton",onVolumeDown);
 document.addEventListener("volumeupbutton",onVolumeup);
 }
-
 function onBack()
 {
 alert("back button");
@@ -43,14 +42,13 @@ function onResume()
 {
 alert("reusme");
 }
-
 function onVolumeDown()
 {
 alert("volume down");
 }
-
 function onVolumeup()
-
 {
 alert("volume up");
 }
+
+document.
