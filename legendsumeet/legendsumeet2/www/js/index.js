@@ -27,3 +27,36 @@ function onDeviceReady() {
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
 }
+function onDeviceReady()
+{
+alert("device is ready");
+document.addEventListener("backbutton",onBack);
+document.addEventListener("pause",onPause);
+document.addEventListener("resume",onResume);
+document.addEventListener("volumedownbutton",onVolumeDown);
+document.addEventListener("volumeupbutton",onVolumeup);
+}
+
+function onBack()
+{
+alert("back button");
+}
+function onPause()
+{
+alert("pause button");
+}
+function onResume()
+{
+alert("reusme");
+}
+
+function onVolumeDown()
+{
+alert("volume down")
+}
+
+function onVolumeup()
+
+{
+alert("volume up")
+}
