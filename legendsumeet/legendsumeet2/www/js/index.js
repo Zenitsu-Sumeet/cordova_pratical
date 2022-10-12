@@ -52,11 +52,11 @@ alert("reusme");
 
 function onVolumeDown()
 {
-alert("volume down")
+alert("volume down");
 }
 
 function onVolumeup()
 
 {
-alert("volume up")
+alert("volume up");
 }
