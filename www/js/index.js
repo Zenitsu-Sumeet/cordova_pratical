@@ -21,15 +21,36 @@
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 document.addEventListener('deviceready', onDeviceReady, false);
 
-function onDeviceReady() {
-    // Cordova is now initialized. Have fun!
-
-    console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
-    document.getElementById('deviceready').classList.add('ready');
-}
-document.getElementById("clickme").addEventListener("click",msg)
-
-function msg(){
-alert("hello legendsumeet is here")
+function onDeviceReady()
+{
+alert("device is ready");
+document.addEventListener("backbutton",onBack);
+document.addEventListener("pause",onPause);
+document.addEventListener("resume",onResume);
+document.addEventListener("volumedownbutton",onVolumeDown);
+document.addEventListener("volumeupbutton",onVolumeup);
 }
 
+function onBack()
+{
+alert("back button");
+}
+function onPause()
+{
+alert("pause button");
+}
+function onResume()
+{
+alert("reusme");
+}
+
+function onVolumeDown()
+{
+alert("volume down");
+}
+
+function onVolumeup()
+
+{
+alert("volume up");
+}
