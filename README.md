@@ -1,2 +1,2 @@
 # cordova_pratical
-college project by cordova
+college project by cordova 
